@@ -1,0 +1,49 @@
+header {
+  padding: 8px;
+  background: #8197b3;
+  color: white;
+
+  h2 {
+    margin: 0;
+  }
+}
+
+#auth-wrapper {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#input {
+  margin-bottom: 30px;
+
+  label {
+    margin: 0 5px;
+  }
+
+  input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+}
+
+button {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 8px;
+  color: white;
+  border-radius: 3px;
+  background: #59d;
+  border: 1px solid #48c;
+
+  &:last-child {
+    background: #5ca;
+    border: 1px solid #3a8;
+  }
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+}
